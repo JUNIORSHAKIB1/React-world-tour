@@ -1,0 +1,14 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.visited{
+    background-color: rgb(255, 175, 104);
+    color: black;
+}
+
+.flag-container img{
+    border-radius:5px;
+    border: 2px solid red ;
+}
